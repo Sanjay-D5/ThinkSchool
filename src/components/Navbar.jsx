@@ -4,6 +4,7 @@ import Button from './Button';
 import { useWindowScroll } from 'react-use';
 import gsap from 'gsap';
 import { RxCross2, RxHamburgerMenu } from 'react-icons/rx';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -51,11 +52,11 @@ const Navbar = () => {
           {/* Desktop Navigation */}
           <div className='hidden md:flex h-full items-center'>
             {navItems.map((item) => (
-              <a 
+              <Link
                 key={item.url}
-                href={item.url}
+                to={item.url}
                 className='relative ms-6 md:ms-10 font-general text-xs uppercase text-blue-50  after:absolute after:-bottom-0.5 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-neutral-800 after:transition-transform after:duration-300 after:ease-[cubic-bezier(0.65_0.05_0.36_1)] hover:after:origin-bottom-left hover:after:scale-x-100 dark:after:bg-white cursor-pointer'
-              >{item.name}</a>
+              >{item.name}</Link>
             ))}
           </div>
 
@@ -76,13 +77,14 @@ const Navbar = () => {
           <div className='md:hidden absolute w-full bg-black bg-opacity-90 py-4 px-6 mt-2 rounded-lg transition-all duration-300 ease-in-out'>
             <div className='flex flex-col space-y-4'>
               {navItems.map((item) => (
-                <a 
-                  href="" 
+                <Link 
+                  key={item.url}
+                  to={item.url}
                   className='text-blue-50 text-sm uppercase py-2 border-b border-gray-800'
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {item.name}
-                </a>
+                </Link>
               ))}
               <Button className="text-white border border-white px-4  py-1 rounded-2xl text-sm self-start mt-2">
                 Log In
