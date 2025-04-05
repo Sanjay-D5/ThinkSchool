@@ -5,7 +5,7 @@ import MasterClass from '../components/courses/MasterClass'
 import TrustedBy from '../components/courses/TrustedBy'
 import Blueprint from '../components/courses/Blueprint'
 import WithUs from '../components/courses/WithUs'
-import Card from '../components/courses/card'
+import Card from '../components/courses/Card'
 
 const Courses = () => {
   return (
