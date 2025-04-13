@@ -61,8 +61,5 @@ Add dark mode toggle
 Optimize SEO with meta tags and sitemap
 
 🤝 Contact
-Made with 💻 by Sanjay D.
-
-GitHub: @Sanjay-D5
-
-LinkedIn: www.linkedin.com/in/-sanjay-d
+- **GitHub**: [Sanjay D.](https://github.com/sanjayshre)
+- **Email**: sanjayd7576@gmail.com
