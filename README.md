@@ -1,23 +1,6 @@
 🧠 ThinkSchool Clone - A Case Study-Driven Learning Platform
 A modern single-page application (SPA) built with ReactJS, inspired by the Think School website. This project aims to replicate the educational experience of Think School with a sleek UI, intuitive navigation.
 
-📌 Table of Contents
-About the Project
-
-Key Features
-
-Live Demo
-
-Installation & Setup
-
-Tech Stack
-
-Screenshots
-
-Future Enhancements
-
-Contact
-
 🔍 About the Project
 ThinkSchool is a clone project built to showcase front-end development skills using React. It mimics the case-study-rich educational platform Think School, integrating YouTube content dynamically and offering a polished user experience.
 
